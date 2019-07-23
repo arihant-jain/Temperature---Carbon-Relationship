@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+        <title>Visualization Project</title>
+        <link rel="stylesheet" href="viz.css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>
+                    <div class="canvas">
+                        <h2>Topic: Effects of Carbon emissions on global temperatures</h2>
+                        <p>We are looking at the effects of global Carbon emissions on temperatures in different countries/continents over a period of time.</p>
+                        <p>The visualisation contains a heatmap and a line chart which have similar time axes and is built using JavaScript and D3.js library. The heatmap lists all regions on vertical axis and time on horizontal axis. The colour of the boxes denote the temperature variation/anomaly compared to the average of temperatures in 30 years from 1890 to 1920. And thus, the plot starts from 1921 and goes till 2012.</p>
+                        <p>Exactly below this heatmap is a line chart depicting total amount of global carbon emissions (in million metric tons) over the same period of time as the heatmap. </p>
+                        <p>Use the radio buttons to see the visualisation by countries or by continents.</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+                        <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="arihant-jain-here"><a class="LI-simple-link" href='https://au.linkedin.com/in/arihant-jain-here?trk=profile-badge'>Arihant Jain</a></div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <p id="filter">Show by:
+            &emsp;
+            <input type="radio" name="filter" id="country" value="Countries" checked="checked" onclick="filterplot()">Countries
+            &emsp;&emsp;
+            <input type="radio" name="filter" id="continent" value="Continents" onclick="filterplot()">Continents
+        </p>
+        <br>
+        <div class="chartCanvas" id='chartCanvas'>
+            <br>
+            <div id="legend1"></div>
+            <div id="heatmap" class="content"></div>
+            <div id="linechart"></div>
+            <script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+            <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+            <script type="text/javascript" src="viz.js" charset="utf-8"></script>
+            <br>
+        </div>
+        <br>
+    </body>
+</html>
