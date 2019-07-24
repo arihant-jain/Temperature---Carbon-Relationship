@@ -62,33 +62,33 @@ Steps to use the visualisation:
 1.	Read the description on the web page to know what the visualisation is about.
 2.  Select your preferred view using the ***Show By*** radio buttons.
 <p align="center">
-  <img src="Images/filter.png" alt="Show By control">
+  <img src="/Images/filter.png" alt="Show By control"/>
 </p>
 
 3.	Look at the heatmap to see how the temperature has varied for each country/region over the period of 1921 to 2012.
 <p align="center">
-  <img src="Images/heatmap.png" alt="Heatmap">
+  <img src="Images/heatmap.png" alt="Heatmap"/>
 </p>
 
 4.	Use the legend to find the temperature variation corresponding to different colour levels.
 <p align="center">
-  <img src="Images/legend.png" alt="Legend">
+  <img src="Images/legend.png" alt="Legend"/>
 </p>
 
 5.	Scroll up - down the page to see the country you are interested in. The countries/regions are alphabetically arranged.
 6.	Hover the mouse cursor on any box on the heatmap to highlight it and to find the country/region and year that box represents. The pop-up box that appears also shows the annual average temperature that year for that country and the temperature variance.
 <p align="center">
-  <img src="Images/pop1.png" alt="Pop-up Box">
+  <img src="Images/pop1.png" alt="Pop-up Box"/>
 </p>
 
 7.	Scroll all the way down to see the global emissions line chart.
 <p align="center">
-  <img src="Images/lineChart.png" alt="Line Chart">
+  <img src="Images/lineChart.png" alt="Line Chart"/>
 </p>
 
 8.	Hover over any dot on this chart to highlight it and to see the year and total Carbon emissions that year.
 <p align="center">
-  <img src="Images/pop2.png" alt="Pop-up Box">
+  <img src="Images/pop2.png" alt="Pop-up Box"/>
 </p>
  
 ## CONCLUSION
